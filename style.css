@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'dot font';
+    src: url(font/Ndot-55.otf);
+}
+body{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;  
+}
+.navbar-brand{
+    font-family: 'dot font';
+    font-size: 2rem;
+    font-weight: 400;
+}
+/* .Nothing-logo{
+    width: 155px;
+    height: 50px;
+} */
+.person{
+    margin-left: 10px;
+}
+.person-logo{
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    right: 68px;
+    top: 24px;
+}
+.collapse li:hover{
+    text-decoration: underline;
+}
+.navbar .nav-link {
+    font-family:NType82-bold, "Noto Sans Thai", NType82Mono;
+    font-weight: 500;
+    font-size: 20px;
+}
+.image-1{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+.section-name{
+    font-family: NType82-bold, "Noto Sans Thai", NType82Mono;
+    font-size: 4rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.32px;
+    text-wrap: nowrap;
+    max-width: 100%;
+}
+.section-para{
+    font-family:NType82;
+    font-size: 18px;
+    font-weight: 300;
+    color:  rgb(0, 0, 0);
+    line-height: 36px;
+}
+.section-1{
+    background-color: rgb(249, 252, 255);
+}
+.content{
+    margin-bottom:32px ;
+}
+.learn-more-btn{
+    width: 90%;
+    background-color: rgb(0, 47, 108);
+    border: 1px solid rgb(0, 47, 108);
+    font-size: 1.1rem;
+    transition: width 0.5s;
+}
+.button-div{
+    text-align: center;
+}
+.company-quote{
+    background-color: rgb(249, 252, 255);
+}
+
+.quote-heading,.quote-para{
+    font-family: NType82;
+    font-size: 2rem;
+    font-weight: 700;  
+}
+footer ul a{
+    font-family: NType82;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+}
+.email-fill{
+    width: 100%;
+    padding: 16px 14px;
+    border-radius: 14px;
+    color: white;
+}
+.email-para{
+    color: white;
+    font-family: NType82;
+    font-size: 1.3rem;
+
+}
+input::placeholder{
+    color: white;
+    font-family: NType82;
+}
+#email-button{
+    position: absolute;
+    font-family: 'dot font';
+    font-size: 2rem;
+    right: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 2px;
+    padding-top: 1px;
+}
+.footer-link a{
+   font-family: NType82;
+   font-size: 1rem;
+   color: white;
+   text-decoration: none;
+   word-spacing: 10px;
+}
+
+@media (min-width:1247px) and (max-width:1500px) {
+   .section-name{
+    font-size: 3.7rem;
+   }
+   .learn-more-btn:hover{
+    background-color: rgb(1, 36, 81);
+    width: 100%;
+}    
+}
+@media (min-width:970px) and (max-width:1249px) {
+    .section-name{
+        font-size: 3.5rem;
+    }
+    .learn-more-btn:hover{
+        background-color: rgb(1, 36, 81);
+        width: 100%;
+    }
+}
+@media (max-width:992px) {
+    .section-name{
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 10px 2px;
+    }
+    .section-para{
+        font-size: 1rem;
+    }
+    .learn-more-btn{
+        background-color: rgb(0, 47, 108);
+        border: 1px solid rgb(0, 47, 108);
+        width: 100%;
+    }
+    .learn-more-btn:hover{
+        background-color: rgb(3, 28, 61);
+        border: 1px solid rgb(0, 47, 108);
+    }
+    .section-para {
+        white-space: wrap;
+      }
+    .dynamic-br{
+        display: none;
+    }
+    .quote-heading,.quote-para{
+        font-family: NType82;
+        font-size: 1.5rem;
+        font-weight: 700;  
+    }
+    .navbar-brand{
+        font-size: 1.8rem;
+    }   
+}
+@media (max-width:576px) {
+    .quote-heading,.quote-para{
+        text-align: start;
+        font-family: NType82;
+        font-size: 1rem;
+        font-weight: 700;  
+    } 
+}
+@media (max-width:1200px) {
+    footer ul a{
+        font-size: 1rem;
+    }
+    .footer-link-items{
+        flex-direction: column;
+    }   
+}
+
+
